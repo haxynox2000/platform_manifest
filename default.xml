@@ -10,16 +10,20 @@
   <remote revision="refs/heads/aosp-6.0"
            name="haxynox"
            fetch="https://github.com/haxynox" />
+           
+  <remote revision="refs/heads/aosp-6.0"
+           name="haxynox2000"
+           fetch="https://github.com/haxynox2000" />
 
   <!-- HAXYNOX BEGIN -->
-  <project path="build" name="haxynox_build" remote="haxynox" groups="pdk" >
+  <project path="build" name="haxynox_build" remote="haxynox2000" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="external/stlport" name="android_external_stlport" remote="haxynox" revision="Mmm"/>
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="haxynox" revision="Mmm" />
   <project path="external/exfat" name="android_external_exfat" remote="haxynox" />
   
-  <project path="platform_manifest" name="platform_manifest" remote="haxynox" />
+  <project path="platform_manifest" name="platform_manifest" remote="haxyno2000" />
   
 <!-- Device Trees -->
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="haxynox" revision="Mmm" />
@@ -50,7 +54,7 @@
   
 <!-- System/* -->
   <project path="system/core" name="android_system_core" remote="haxynox" />
-  <project path="system/extras" name="android_system_extras" remote="haxynox" />
+  <project path="system/extras" name="android_system_extras" remote="haxynox2000" />
   <project path="system/vold" name="android_system_vold" remote="haxynox" />
 
 <!-- Misc -->
