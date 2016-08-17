@@ -23,7 +23,7 @@
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="haxynox" revision="Mmm" />
   <project path="external/exfat" name="android_external_exfat" remote="haxynox" />
   
-  <project path="platform_manifest" name="platform_manifest" remote="haxyno2000" />
+  <project path="platform_manifest" name="platform_manifest" remote="haxynox2000" />
   
 <!-- Device Trees -->
   <project path="device/samsung/n7100" name="device_samsung_n7100" remote="haxynox" revision="Mmm" />
